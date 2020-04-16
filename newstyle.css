@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#7FFFD4;}
+.nav{ text-align:center; height:50px; font-size:14px; line-height:50px; position:fixed; left:0px; top:100px;}
+.nav ul{ padding:0px; list-style:none; background-color:#390; }
+.nav ul li{ width:200px; font-weight:600; border-right:#CCC 1px solid; border-left:#CCC 1px solid; margin:0px; padding:0px;}
+.nav ul li a{ text-decoration:none; color:#FFF; display:block;}
+.nav ul li a:hover{ color:#000; background-color:#FFF;}
+div.content{margin:0px 100px 0px 200px;}
+table{ border-collapse:collapse; border-width:50px;}
+.text{ font-size:18px; padding:10px 40px;}/*文章主要内容*/
+.zhanshi{ text-align:center;}/*展示的图片*/
+h2{font-size:30px; color:#F00;}
+h3{font-size:26px;}
