@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#7FFFD4;}
+h1{ text-align:center;}
+div.nav{ text-align:center; height:50px; font-size:14px; background-color:#390; line-height:50px; margin:0px 100px 0px 200px; padding:0px;}<!--一级导航栏-->
+.nav ul{ padding:0px; margin:0px;}
+.nav ul li{ float:left; width:200px; font-weight:600; border-right:#CCC 1px solid; border-left:#CCC 1px solid; list-style:none;}
+.nav ul li a{ text-decoration:none; color:#FFF; display:block;}
+.nav ul li a:hover{ color:#000; background-color:#FFF;}
+table{ border-collapse:collapse; border-width:50px;}
+.section{display:none;}/*文章内容*/
+:target{display:block;}/* 链接到的内容部分显示*/
+.text{ font-size:18px; padding:10px 40px;}/*文章主要内容*/
+.zhanshi{ text-align:center;}/*展示的图片*/
+h2{font-size:30px; color:#F00;}
+h3{font-size:26px;}
+#hr1{ border-color:#F00; width:50%; float:left; border-width:8px;}
+#hr2{ border-color:#00F; width:50%; float:right; margin-left:-50px; border-width:8px;}
+#banquan{ clear:both;}
+.leftnav{ text-align:center; width:200px; font-size:20px; position:fixed; left:0px; top:100px;}
+.leftnav ul{ padding:0px; margin:0px; list-style:none; background-color:#390; }
+.leftnav ul li{ height:40px; width:200px; line-height:40px; font-weight:600; border-bottom:#CCC 1px solid; margin:0px; padding:0px; position:relative}
+.leftnav ul li a{ text-decoration:none; color:#FFF; display:block;}
+.leftnav ul li a:hover{ color:#000; background-color:#FFF;}
+.leftnav ul li ul{ display:none; position:absolute; top:0px; left:200px; z-index:5; width:150px;}
+.leftnav ul li ul li{ background-color:#390; border-bottom:#CCC 1px solid;}
+.leftnav ul li ul li a{ text-decoration:none; color:#FFF; display:block;}
+.leftnav ul li ul li a:hover{ color:#000; background-color:#FFF;}
+.leftnav ul li:hover ul{ display:block;}
